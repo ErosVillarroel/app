@@ -34,13 +34,14 @@
     display: inline-block;
     margin: 0 20px; 
     position: relative;
-    font-weight: 'bold';
+    font-weight: 100;
 }
 
 .navbar ul li a{
     text-decoration: none;
     color: #fff;
-    text-transform: uppercase;;
+    text-transform: uppercase;
+    
 }
 
 .navbar ul li::after{
@@ -56,4 +57,25 @@
 
 .navbar ul li:hover::after{  
     width: 100%;
+}
+
+.content{
+    width:  100%; 
+    position: absolute;
+    top: 50%;
+    transform: translatey(-50%);
+    text-align: center;
+    color: #fff;
+}
+
+.content h1 {
+    font-size:60px;
+    margin-top: 80px;
+    font-weight: 100;
+}
+
+.content p{
+    margin: 20px auto;
+    font-weight: bold;
+    line-height: 25px; 
 }
