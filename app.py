@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-peto = 'marico'
-
-if peto == 'marico':
-    print(f'peto es {peto}')
-=======
 import json
 from flask import Flask, jsonify, request
 from jsonschema import Draft7Validator, validators, ValidationError
@@ -125,4 +119,4 @@ def updateReps():
         pass
     except:
         pass
->>>>>>> 687a43be6db4fa987d5b119de6f6f5653184f484
+
